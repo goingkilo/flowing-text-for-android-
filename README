@@ -1,4 +1,8 @@
 
+Create good looking documents with text flowing around images
+see screenshots for examples:
+
+What :
 A Document can contain Block and ImageBlock objects
 a Block has Fragment  and Image objects, 
 a Fragment has text , and a FragmentFormat object
@@ -13,9 +17,9 @@ previously aligned left (or right)
 
 an ImageBlock has one centrally placed image and no text
 
-for demonstration of above, see DataFillerUp.java : fillDoc(Document)
+howto :
+see class app.DataFillerUp:fillDoc(Document)
 
-DocumentViewer, when passed a filled-up document object, renders it
 
 
 
