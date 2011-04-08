@@ -1,0 +1,22 @@
+
+A Document can contain Block and ImageBlock objects
+a Block has Fragment  and Image objects, 
+a Fragment has text , and a FragmentFormat object
+a FragmentFormat object has font/typeface ( path to ttf/String ) , style, color, fontsize (int,int,int)
+you can also set linespacing to set the gap between lines (int)
+
+an Image has a text/path tojpg and an ImageFormat object
+an ImageFormat has  padding,alignment  
+images within a block can be aligned left or right
+images aligned left(or right) will arrange themselves directly beneath images
+previously aligned left (or right)
+
+an ImageBlock has one centrally placed image and no text
+
+for demonstration of above, see DataFillerUp.java : fillDoc(Document)
+
+DocumentViewer, when passed a filled-up document object, renders it
+
+
+
+

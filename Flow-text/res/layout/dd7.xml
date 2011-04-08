@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	 <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+
+	    <Button
+	    	android:layout_width="wrap_content"
+		   	android:layout_height="wrap_content"
+		   	android:layout_gravity="left"
+		   	android:id="@+id/first"
+	    	/>
+	   
+	    <LinearLayout
+	    	android:orientation="horizontal"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="right" >
+
+			<Button
+		    	android:layout_width="wrap_content"
+			   	android:layout_height="wrap_content"
+			   	android:layout_gravity="left"
+			   	android:id="@+id/write"
+		    	/>
+
+			 <Button
+		    	android:layout_width="wrap_content"
+			   	android:layout_height="wrap_content"
+			   	android:layout_gravity="left"
+			   	android:id="@+id/camera"
+		    	/>
+
+			 <Button
+		    	android:layout_width="wrap_content"
+			   	android:layout_height="wrap_content"
+			   	android:layout_gravity="left"
+			   	android:id="@+id/save"
+		    	/>
+
+
+	    	 <Button
+		    	android:layout_width="wrap_content"
+			   	android:layout_height="wrap_content"
+			   	android:layout_gravity="left"
+			   	android:id="@+id/delete"
+		    	/>
+	    </LinearLayout>
+    
+    </LinearLayout>
+<TextView
+	    	android:layout_width="fill_parent"
+		   	android:layout_height="wrap_content"
+		   	android:gravity="center"
+		   	android:id="@+id/headband"
+	    	/>
+
+	<LinearLayout
+		android:id="@+id/midl"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="6"
+	    >
+	</LinearLayout>
+
+	<!--
+	<HorizontalScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="70dip"
+	    android:layout_weight="2"
+		>
+		<LinearLayout
+			android:id="@+id/botm"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+			android:layout_gravity="right"
+		    >
+			<Button
+			    android:id="@+id/forward"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/button_forward"
+			    />
+		</LinearLayout>
+	</HorizontalScrollView>
+	-->
+
+</LinearLayout>
